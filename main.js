@@ -1,3 +1,12 @@
+/*
+MIT License
+
+Copyright (c) 2017 Nobuo Ito
+
+ http://opensource.org/licenses/mit-license.php
+
+ */
+
 /**
  * @file main.js
  * 
