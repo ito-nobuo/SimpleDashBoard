@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+    <link rel='stylesheet' href='static/bundle/bundle.css' type='text/css' media='all' />
+
+  <!--<script type='text/javascript' src='node_modules/jquery/dist/jquery.min.js'></script>-->
+  <!--<script type='text/javascript' src='node_modules/moment/min/moment.min.js'></script>-->
+  <script type='text/javascript' src='static/bundle/bundle.js'></script>
+  <!--<script type='text/javascript' src='node_modules/fullcalendar/dist/gcal.js'></script>-->
+  <script>
+    jQuery.noConflict();
+    (function ($) {
+      $(document).ready(function () {
+        $('#calendar').fullCalendar({
+          //ここに各種オプション
+        });
+      });
+    })(jQuery);
+  </script>
+  <title>SimpleCalendar</title>
+</head>
+
+<body>
+  <p>Hello World</p>
+  <div id="calendar"></div>
+</body>
+</html>
