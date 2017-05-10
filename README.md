@@ -8,9 +8,8 @@ T.B.D
 ``` bash
 yarn install
 yarn build
-yarn build #1回だと失敗した...
 yarn start
 ```
 
 ## LISENCE
-MIT
+[MIT](https://github.com/physical-eng/SimpleDashBoard/blob/master/LICENSE)
