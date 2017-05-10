@@ -43,9 +43,6 @@ function bundle() {
     br.bundle() // browserifyの実行
         .pipe(source('bundle.js')) //出力ファイル名
         .pipe(buffer())
-        .pipe(uglify({
-            preserveComments: 'license' // ライセンスコメントを残しつつminify
-        }))
         .pipe(gulp.dest(outputDir)); // 出力先
 }
 
