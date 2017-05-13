@@ -23,6 +23,7 @@ var br = browserify({
 });
 
 gulp.task('build', function () {
+    bundle();
     parcelify(br, {
         bundles: { style: path.join(outputDir, 'bundle.css') }
     });
@@ -30,7 +31,6 @@ gulp.task('build', function () {
     if (watch) {
         br = br.plugin('watchify');
     }
-        bundle();
 
     if (watch) {
         br.on('update', bundle);
